@@ -155,6 +155,19 @@
           "cssFilePath": "plasmic/robot_draws_you/PlasmicMaps.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "bUlzF8Q1_w",
+          "name": "HomepageSlideshow",
+          "type": "managed",
+          "projectId": "48hdstfvEZkFZSekMr6Q9R",
+          "renderModuleFilePath": "plasmic/robot_draws_you/PlasmicHomepageSlideshow.tsx",
+          "importSpec": {
+            "modulePath": "HomepageSlideshow.tsx"
+          },
+          "cssFilePath": "plasmic/robot_draws_you/PlasmicHomepageSlideshow.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

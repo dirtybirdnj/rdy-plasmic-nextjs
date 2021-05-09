@@ -31,14 +31,13 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import Header from "../../Header"; // plasmic-import: lG_kCkkDwr/component
+import HomepageSlideshow from "../../HomepageSlideshow"; // plasmic-import: bUlzF8Q1_w/component
 import Footer from "../../Footer"; // plasmic-import: z3CYKlSW6J/component
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_robot_draws_you.module.css"; // plasmic-import: 48hdstfvEZkFZSekMr6Q9R/projectcss
 import * as sty from "./PlasmicHomepage.module.css"; // plasmic-import: Skcp_Io7wpf3/css
-
-import RTrimsvgIcon from "./icons/PlasmicIcon__RTrimsvg"; // plasmic-import: GzS58aHp0/icon
 
 export type PlasmicHomepage__VariantMembers = {};
 
@@ -53,8 +52,7 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   header?: p.Flex<typeof Header>;
-  box?: p.Flex<"div">;
-  svg?: p.Flex<"svg">;
+  homepageSlideshow?: p.Flex<typeof HomepageSlideshow>;
   footer?: p.Flex<typeof Footer>;
 };
 
@@ -102,19 +100,11 @@ function PlasmicHomepage__RenderFunc(props: {
             className={classNames("__wab_instance", sty.header)}
           />
 
-          <div
-            data-plasmic-name={"box"}
-            data-plasmic-override={overrides.box}
-            className={classNames(defaultcss.all, sty.box)}
-          >
-            <RTrimsvgIcon
-              data-plasmic-name={"svg"}
-              data-plasmic-override={overrides.svg}
-              className={classNames(defaultcss.all, sty.svg)}
-              id={"homepageAnimation" as const}
-              role={"img"}
-            />
-          </div>
+          <HomepageSlideshow
+            data-plasmic-name={"homepageSlideshow"}
+            data-plasmic-override={overrides.homepageSlideshow}
+            className={classNames("__wab_instance", sty.homepageSlideshow)}
+          />
 
           <Footer
             data-plasmic-name={"footer"}
@@ -128,10 +118,9 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "header", "box", "svg", "footer"],
+  root: ["root", "header", "homepageSlideshow", "footer"],
   header: ["header"],
-  box: ["box", "svg"],
-  svg: ["svg"],
+  homepageSlideshow: ["homepageSlideshow"],
   footer: ["footer"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -140,8 +129,7 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   header: typeof Header;
-  box: "div";
-  svg: "svg";
+  homepageSlideshow: typeof HomepageSlideshow;
   footer: typeof Footer;
 };
 
@@ -207,8 +195,7 @@ export const PlasmicHomepage = Object.assign(
   {
     // Helper components rendering sub-elements
     header: makeNodeComponent("header"),
-    box: makeNodeComponent("box"),
-    svg: makeNodeComponent("svg"),
+    homepageSlideshow: makeNodeComponent("homepageSlideshow"),
     footer: makeNodeComponent("footer"),
 
     // Metadata about props expected for PlasmicHomepage
