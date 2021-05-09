@@ -5,6 +5,7 @@ import {
   PlasmicHomepageSlideshow,
   DefaultHomepageSlideshowProps
 } from "./plasmic/robot_draws_you/PlasmicHomepageSlideshow";
+import Vivus from 'vivus';
 
 // Your component props start with props for variants and slots you defined
 // in Plasmic, but you can add more here, like event handlers that you can
@@ -23,7 +24,9 @@ interface HomepageSlideshowProps extends DefaultHomepageSlideshowProps {}
 
 function HomepageSlideshow(props: HomepageSlideshowProps) {
 
-  useEffect(() => console.log('test123'), []);
+  useEffect(() => {
+    new Vivus('homepageAnimation', {duration: 400}, console.log('done anim'));
+  });
   // Use PlasmicHomepageSlideshow to render this component as it was
   // designed in Plasmic, by activating the appropriate variants,
   // attaching the appropriate event handlers, etc.  You
