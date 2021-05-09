@@ -1,0 +1,338 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+.box__g146E {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  border-top-width: 1px;
+  padding: 20px;
+  border-style: dashed;
+}
+.box__g146E > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  margin-left: calc(0px - 5px);
+  width: calc(100% + 5px);
+}
+.box__g146E > :global(.__wab_flex-container) > *,
+.box__g146E > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 5px;
+}
+.box__yWquS {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: calc(0px + 5px) !important;
+  padding: 5px;
+  background: #ffffff;
+  border-width: 1px;
+}
+.link__cL6Ot {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.svg__gXiCe {
+  position: relative;
+  object-fit: cover;
+  color: #000000;
+  margin-right: 5px;
+  align-self: center;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.box__so3Ic {
+  position: relative;
+  font-size: 0.7em;
+  color: #000000;
+  align-self: flex-end;
+  padding-top: 0px;
+  font-family: "Coming Soon";
+}
+.box__tfqiK {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: calc(0px + 5px) !important;
+  padding: 5px;
+  background: #ffffff;
+}
+.link__raVpg {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.svg__o4LhT {
+  position: relative;
+  object-fit: cover;
+  color: #000000;
+  margin-right: 5px;
+  align-self: center;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.box__pUuU {
+  position: relative;
+  font-size: 0.7em;
+  color: #000000;
+  align-self: flex-end;
+  padding-top: 0px;
+  font-family: "Coming Soon";
+}
+.box__aev48 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: calc(0px + 5px) !important;
+  padding: 5px;
+  background: #ffffff;
+}
+.link__noqbP {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.svg__jE1RP {
+  position: relative;
+  object-fit: cover;
+  color: #000000;
+  margin-right: 5px;
+  align-self: center;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.box___3Ds53 {
+  position: relative;
+  font-size: 0.7em;
+  color: #000000;
+  align-self: flex-end;
+  padding-top: 0px;
+  font-family: "Coming Soon";
+}
+.box__uTsuJ {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: calc(0px + 5px) !important;
+  padding: 5px;
+  background: #ffffff;
+}
+.link___4BSan {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.svg__ooXa2 {
+  position: relative;
+  object-fit: cover;
+  color: #000000;
+  margin-right: 5px;
+  align-self: center;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.box__aotcn {
+  position: relative;
+  font-size: 0.7em;
+  color: #000000;
+  align-self: flex-end;
+  padding-top: 0px;
+  font-family: "Coming Soon";
+}
+.box___5SJc {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: calc(0px + 5px) !important;
+  padding: 5px;
+  background: #ffffff;
+}
+.link__b610K {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.svg__wpbK {
+  position: relative;
+  object-fit: cover;
+  color: #000000;
+  margin-right: 5px;
+  align-self: center;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.box__jDoLp {
+  position: relative;
+  font-size: 0.7em;
+  color: #000000;
+  align-self: flex-end;
+  padding-top: 0px;
+  font-family: "Coming Soon";
+}
+.box___4Ms0D {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 0em;
+  margin-right: 0em;
+  padding-left: 1em;
+  padding-right: 1em;
+  min-width: 0;
+}
+.link__pxAm1 {
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  width: auto;
+  align-self: center;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  min-height: 0;
+  border-style: none;
+}
+.svg__rHk00 {
+  position: relative;
+  object-fit: cover;
+  width: 12px;
+  height: 1em;
+  color: #000000;
+  flex-shrink: 0;
+  margin: 0px;
+}
+.box__sk3NU {
+  position: relative;
+  font-size: 10px;
+  font-weight: 300;
+  color: #000000;
+  text-align: center;
+  align-self: flex-end;
+  font-family: "Coming Soon";
+  min-width: 84px;
+}
+.svg__h677D {
+  position: relative;
+  object-fit: cover;
+  width: 12px;
+  height: 1em;
+  color: #000000;
+  flex-shrink: 0;
+  margin: 0px;
+}
+.box__zWzyq {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  align-self: center;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px;
+}
+.box__ghXh {
+  position: relative;
+  font-size: 10px;
+  color: #000000;
+  font-weight: 100;
+  font-family: "Coming Soon";
+}
+.svg__soq43 {
+  position: relative;
+  object-fit: cover;
+  width: 12px;
+  height: 1em;
+  margin-left: 3px;
+  margin-right: 3px;
+  color: #000000;
+  flex-shrink: 0;
+}
+.box__qdMa {
+  position: relative;
+  font-size: 10px;
+  color: #000000;
+  font-weight: 100;
+  font-family: "Coming Soon";
+}
+.link___1US1E {
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  align-self: auto;
+  justify-content: flex-end;
+  align-items: center;
+  width: auto;
+  height: 100%;
+  min-height: 0;
+}
+.svg__oxPRu {
+  position: relative;
+  object-fit: cover;
+  width: 12px;
+  height: 1em;
+  margin-left: 3px;
+  margin-right: 3px;
+  color: #000000;
+  flex-shrink: 0;
+}
+.box___4GnZi {
+  position: relative;
+  font-size: 13px;
+  color: #000000;
+  font-weight: 900;
+  font-family: "Alata";
+  line-height: 1.4;
+}
+.svg__eafH {
+  position: relative;
+  object-fit: cover;
+  width: 12px;
+  height: 1em;
+  margin-left: 3px;
+  margin-right: 3px;
+  color: #000000;
+  flex-shrink: 0;
+}
