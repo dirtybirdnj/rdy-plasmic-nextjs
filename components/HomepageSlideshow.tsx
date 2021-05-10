@@ -25,7 +25,10 @@ interface HomepageSlideshowProps extends DefaultHomepageSlideshowProps {}
 function HomepageSlideshow(props: HomepageSlideshowProps) {
 
   useEffect(() => {
-    new Vivus('homepageAnimation', {duration: 400}, console.log('done anim'));
+    new Vivus('homepageAnimation', {
+      duration: 1000,
+      type: 'oneByOne'
+    }, console.log('done anim'));
   });
   // Use PlasmicHomepageSlideshow to render this component as it was
   // designed in Plasmic, by activating the appropriate variants,
